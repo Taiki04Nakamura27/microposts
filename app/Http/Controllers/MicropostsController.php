@@ -15,6 +15,7 @@ class MicropostsController extends Controller
      */
     public function index()
     {
+        
         $data = [];
         if (\Auth::check()) {
             $user = \Auth::user();
